@@ -150,25 +150,55 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
         }
       ]
     }, {
-      "type": "file",
+      "type": "folder",
       "data": {
-        "language": {
-          "nameMatchers": [".js"],
-          "pygmentsLexer": "javascript",
-          "multiLineComment": ["/*", "*", "*/"],
-          "singleLineComment": ["//"],
-          "ignorePrefix": "}",
-          "foldPrefix": "^",
-          "name": "JavaScript"
-        },
-        "sourcePath": "/home/aureooms/dev/js/js-graph-sugar/js/src/dummy.js",
-        "projectPath": "js/src/dummy.js",
-        "targetPath": "dummy",
-        "pageTitle": "dummy",
-        "title": "dummy"
+        "path": "vertices",
+        "title": "vertices"
       },
       "depth": 1,
-      "outline": []
+      "children": [
+        {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-graph-sugar/js/src/vertices/WithMissingVerticesAdded.js",
+            "projectPath": "js/src/vertices/WithMissingVerticesAdded.js",
+            "targetPath": "vertices/WithMissingVerticesAdded",
+            "pageTitle": "vertices/WithMissingVerticesAdded",
+            "title": "WithMissingVerticesAdded"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-graph-sugar/js/src/vertices/add_missing_vertices.js",
+            "projectPath": "js/src/vertices/add_missing_vertices.js",
+            "targetPath": "vertices/add_missing_vertices",
+            "pageTitle": "vertices/add_missing_vertices",
+            "title": "add_missing_vertices"
+          },
+          "depth": 2,
+          "outline": []
+        }
+      ]
     }
   ];
 
