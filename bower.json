@@ -1,7 +1,7 @@
 {
 	"main": "js/dist/graph-sugar.js",
 	"license": "AGPL-3.0",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"homepage": "http://aureooms.github.io/js-graph-sugar/",
 	"description": "Graph syntactic sugar code bricks for JavaScript",
 	"ignore": [
