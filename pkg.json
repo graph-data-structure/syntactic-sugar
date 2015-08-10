@@ -1,0 +1,18 @@
+{
+	"babel": true,
+	"out": "js/dist/",
+	"src": "js/src/",
+	"code": {
+		"main": [
+			"js",
+			"dist",
+			"graph-sugar.js"
+		],
+		"test": [
+			"test",
+			"js"
+		]
+	},
+	"debug": false,
+	"name": "graph-sugar"
+}
