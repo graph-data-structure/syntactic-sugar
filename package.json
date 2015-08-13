@@ -4,7 +4,7 @@
 		"url": "https://github.com/aureooms/js-graph-sugar.git",
 		"type": "git"
 	},
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"spm": {
 		"main": "js/dist/graph-sugar.js"
 	},
