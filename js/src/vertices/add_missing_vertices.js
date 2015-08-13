@@ -3,7 +3,7 @@ const add_missing_vertices = function ( Graph ) {
 
 	return function ( ) {
 
-		return new WithMissingVerticesAdded( new Graph( ) , new WeakSet( ) ) ;
+		return new WithMissingVerticesAdded( new Graph( ) , new Set( ) ) ;
 
 	} ;
 

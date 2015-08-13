@@ -30,8 +30,15 @@ WithMissingVerticesAdded.prototype.vdel = function ( v ) {
 
 WithMissingVerticesAdded.prototype.eadd = function ( u , v , ...args ) {
 
-	if ( !this.V.has( u ) ) this.vadd( u ) ;
-	if ( !this.V.has( v ) ) this.vadd( v ) ;
+	if ( !this.V.has( u ) ) {
+		this.vadd( u ) ;
+		this.V.add( u ) ;
+	}
+
+	if ( !this.V.has( v ) ) {
+		this.vadd( v ) ;
+		this.V.add( v ) ;
+	}
 
 	return this.G.eadd( u , v ) ;
 
