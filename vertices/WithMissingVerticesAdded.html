@@ -5,9 +5,9 @@
 
 } ;
 
-WithMissingVerticesAdded.prototype.vadd = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> </span>) </span>{
+WithMissingVerticesAdded.prototype.vadd = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> ...args </span>) </span>{
 
-	<span class="hljs-keyword">const</span> ref = <span class="hljs-keyword">this</span>.G.vadd( ) ;
+	<span class="hljs-keyword">const</span> ref = <span class="hljs-keyword">this</span>.G.vadd( ...args ) ;
 
 	<span class="hljs-keyword">this</span>.V.add( ref ) ;
 
@@ -23,7 +23,7 @@ WithMissingVerticesAdded.prototype.vdel = <span class="hljs-function"><span clas
 
 } ;
 
-WithMissingVerticesAdded.prototype.eadd = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> u , v </span>) </span>{
+WithMissingVerticesAdded.prototype.eadd = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> u , v , ...args </span>) </span>{
 
 	<span class="hljs-keyword">if</span> ( !<span class="hljs-keyword">this</span>.V.has( u ) ) <span class="hljs-keyword">this</span>.vadd( u ) ;
 	<span class="hljs-keyword">if</span> ( !<span class="hljs-keyword">this</span>.V.has( v ) ) <span class="hljs-keyword">this</span>.vadd( v ) ;
@@ -86,6 +86,8 @@ WithMissingVerticesAdded.prototype.dpitr = <span class="hljs-function"><span cla
 	<span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.G.dpitr( w ) ;
 
 } ;
+
+WithMissingVerticesAdded.prototype.vertices = WithMissingVerticesAdded.prototype.vitr ;
 
 WithMissingVerticesAdded.prototype.edges = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> </span>) </span>{
 
