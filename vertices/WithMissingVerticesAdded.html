@@ -25,8 +25,15 @@ WithMissingVerticesAdded.prototype.vdel = <span class="hljs-function"><span clas
 
 WithMissingVerticesAdded.prototype.eadd = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> u , v , ...args </span>) </span>{
 
-	<span class="hljs-keyword">if</span> ( !<span class="hljs-keyword">this</span>.V.has( u ) ) <span class="hljs-keyword">this</span>.vadd( u ) ;
-	<span class="hljs-keyword">if</span> ( !<span class="hljs-keyword">this</span>.V.has( v ) ) <span class="hljs-keyword">this</span>.vadd( v ) ;
+	<span class="hljs-keyword">if</span> ( !<span class="hljs-keyword">this</span>.V.has( u ) ) {
+		<span class="hljs-keyword">this</span>.vadd( u ) ;
+		<span class="hljs-keyword">this</span>.V.add( u ) ;
+	}
+
+	<span class="hljs-keyword">if</span> ( !<span class="hljs-keyword">this</span>.V.has( v ) ) {
+		<span class="hljs-keyword">this</span>.vadd( v ) ;
+		<span class="hljs-keyword">this</span>.V.add( v ) ;
+	}
 
 	<span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.G.eadd( u , v ) ;
 
