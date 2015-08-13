@@ -20,8 +20,9 @@
 		};
 
 		WithMissingVerticesAdded.prototype.vadd = function () {
+			var _G;
 
-			var ref = this.G.vadd();
+			var ref = (_G = this.G).vadd.apply(_G, arguments);
 
 			this.V.add(ref);
 
@@ -87,6 +88,8 @@
 
 			return this.G.dpitr(w);
 		};
+
+		WithMissingVerticesAdded.prototype.vertices = WithMissingVerticesAdded.prototype.vitr;
 
 		WithMissingVerticesAdded.prototype.edges = function () {
 

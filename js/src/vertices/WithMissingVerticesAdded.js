@@ -10,9 +10,9 @@ const WithMissingVerticesAdded = function ( G , V ) {
 
 } ;
 
-WithMissingVerticesAdded.prototype.vadd = function ( ) {
+WithMissingVerticesAdded.prototype.vadd = function ( ...args ) {
 
-	const ref = this.G.vadd( ) ;
+	const ref = this.G.vadd( ...args ) ;
 
 	this.V.add( ref ) ;
 
@@ -28,7 +28,7 @@ WithMissingVerticesAdded.prototype.vdel = function ( v ) {
 
 } ;
 
-WithMissingVerticesAdded.prototype.eadd = function ( u , v ) {
+WithMissingVerticesAdded.prototype.eadd = function ( u , v , ...args ) {
 
 	if ( !this.V.has( u ) ) this.vadd( u ) ;
 	if ( !this.V.has( v ) ) this.vadd( v ) ;
@@ -91,6 +91,8 @@ WithMissingVerticesAdded.prototype.dpitr = function ( w ) {
 	return this.G.dpitr( w ) ;
 
 } ;
+
+WithMissingVerticesAdded.prototype.vertices = WithMissingVerticesAdded.prototype.vitr ;
 
 WithMissingVerticesAdded.prototype.edges = function ( ) {
 

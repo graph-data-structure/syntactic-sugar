@@ -10,9 +10,9 @@
 	},
 	"homepage": "http://aureooms.github.io/js-graph-sugar/",
 	"devDependencies": {
-		"aureooms-js-adjacency-list": "^2.0.1",
-		"aureooms-js-dll": "^6.0.9",
-		"aureooms-js-graph-spec": "^1.0.3",
+		"aureooms-js-adjacency-list": "^4.0.7",
+		"aureooms-js-dll": "^6.0.10",
+		"aureooms-js-graph-spec": "^5.0.1",
 		"aureooms-node-package": "^5.0.2"
 	},
 	"main": "js/dist/graph-sugar.js",
