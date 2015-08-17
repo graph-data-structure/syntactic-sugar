@@ -1,7 +1,11 @@
 [js-graph-sugar](http://aureooms.github.io/js-graph-sugar)
 ==
 
-Graph syntactic sugar code bricks for JavaScript
+Graph syntactic sugar code bricks for JavaScript.
+
+```js
+G.eadd( "a" , "b" ) ;
+```
 
 [![NPM license](http://img.shields.io/npm/l/aureooms-js-graph-sugar.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-graph-sugar/master/LICENSE)
 [![NPM version](http://img.shields.io/npm/v/aureooms-js-graph-sugar.svg?style=flat)](https://www.npmjs.org/package/aureooms-js-graph-sugar)
