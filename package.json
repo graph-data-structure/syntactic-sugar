@@ -12,7 +12,7 @@
 	"devDependencies": {
 		"aureooms-js-adjacency-list": "^4.0.7",
 		"aureooms-js-dll": "^6.0.10",
-		"aureooms-js-graph-spec": "^5.0.1",
+		"aureooms-js-graph-spec": "^5.0.2",
 		"aureooms-node-package": "^5.0.2"
 	},
 	"main": "js/dist/graph-sugar.js",
