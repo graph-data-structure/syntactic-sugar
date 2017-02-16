@@ -7,16 +7,16 @@ Graph syntactic sugar code bricks for JavaScript.
 G.eadd( "a" , "b" ) ;
 ```
 
-[![NPM license](http://img.shields.io/npm/l/@aureooms/js-graph-sugar.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-graph-sugar/master/LICENSE)
-[![NPM version](http://img.shields.io/npm/v/@aureooms/js-graph-sugar.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-graph-sugar)
-[![Bower version](http://img.shields.io/bower/v/@aureooms/js-graph-sugar.svg?style=flat)](http://bower.io/search/?q=@aureooms/js-graph-sugar)
-[![Build Status](http://img.shields.io/travis/aureooms/js-graph-sugar.svg?style=flat)](https://travis-ci.org/aureooms/js-graph-sugar)
-[![Coverage Status](http://img.shields.io/coveralls/aureooms/js-graph-sugar.svg?style=flat)](https://coveralls.io/r/aureooms/js-graph-sugar)
-[![Dependencies Status](http://img.shields.io/david/aureooms/js-graph-sugar.svg?style=flat)](https://david-dm.org/aureooms/js-graph-sugar#info=dependencies)
-[![devDependencies Status](http://img.shields.io/david/dev/aureooms/js-graph-sugar.svg?style=flat)](https://david-dm.org/aureooms/js-graph-sugar#info=devDependencies)
-[![Code Climate](http://img.shields.io/codeclimate/github/aureooms/js-graph-sugar.svg?style=flat)](https://codeclimate.com/github/aureooms/js-graph-sugar)
-[![NPM downloads per month](http://img.shields.io/npm/dm/@aureooms/js-graph-sugar.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-graph-sugar)
-[![GitHub issues](http://img.shields.io/github/issues/aureooms/js-graph-sugar.svg?style=flat)](https://github.com/aureooms/js-graph-sugar/issues)
+[![NPM license](https://img.shields.io/npm/l/@aureooms/js-graph-sugar.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-graph-sugar/master/LICENSE)
+[![NPM version](https://img.shields.io/npm/v/@aureooms/js-graph-sugar.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-graph-sugar)
+[![Bower version](https://img.shields.io/bower/v/@aureooms/js-graph-sugar.svg?style=flat)](http://bower.io/search/?q=@aureooms/js-graph-sugar)
+[![Build Status](https://img.shields.io/travis/aureooms/js-graph-sugar.svg?style=flat)](https://travis-ci.org/aureooms/js-graph-sugar)
+[![Coverage Status](https://img.shields.io/coveralls/aureooms/js-graph-sugar.svg?style=flat)](https://coveralls.io/r/aureooms/js-graph-sugar)
+[![Dependencies Status](https://img.shields.io/david/aureooms/js-graph-sugar.svg?style=flat)](https://david-dm.org/aureooms/js-graph-sugar#info=dependencies)
+[![devDependencies Status](https://img.shields.io/david/dev/aureooms/js-graph-sugar.svg?style=flat)](https://david-dm.org/aureooms/js-graph-sugar#info=devDependencies)
+[![Code Climate](https://img.shields.io/codeclimate/github/aureooms/js-graph-sugar.svg?style=flat)](https://codeclimate.com/github/aureooms/js-graph-sugar)
+[![NPM downloads per month](https://img.shields.io/npm/dm/@aureooms/js-graph-sugar.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-graph-sugar)
+[![GitHub issues](https://img.shields.io/github/issues/aureooms/js-graph-sugar.svg?style=flat)](https://github.com/aureooms/js-graph-sugar/issues)
 [![Inline docs](http://inch-ci.org/github/aureooms/js-graph-sugar.svg?branch=master&style=shields)](http://inch-ci.org/github/aureooms/js-graph-sugar)
 
 Can be managed through [jspm](https://github.com/jspm/jspm-cli),
