@@ -147,10 +147,10 @@
 	if (typeof exports === "object") {
 		definition(exports);
 	} else if (typeof define === "function" && define.amd) {
-		define("aureooms-js-graph-sugar", [], function () {
+		define("@aureooms/js-graph-sugar", [], function () {
 			return definition({});
 		});
 	} else if (typeof window === "object" && typeof window.document === "object") {
 		definition(window["graphsugar"] = {});
-	} else console.error("unable to detect type of module to define for aureooms-js-graph-sugar");
+	} else console.error("unable to detect type of module to define for @aureooms/js-graph-sugar");
 })();
