@@ -1,4 +1,4 @@
-[js-graph-sugar](http://aureooms.github.io/js-graph-sugar)
+[js-graph-sugar](http://make-github-pseudonymous-again.github.io/js-graph-sugar)
 ==
 
 Graph syntactic sugar code bricks for JavaScript.
