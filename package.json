@@ -1,7 +1,7 @@
 {
 	"license": "AGPL-3.0",
 	"repository": {
-		"url": "https://github.com/aureooms/js-graph-sugar.git",
+		"url": "https://github.com/make-github-pseudonymous-again/js-graph-sugar.git",
 		"type": "git"
 	},
 	"version": "0.1.2",
@@ -23,7 +23,7 @@
 	},
 	"dependencies": {},
 	"bugs": {
-		"url": "https://github.com/aureooms/js-graph-sugar/issues"
+		"url": "https://github.com/make-github-pseudonymous-again/js-graph-sugar/issues"
 	},
 	"description": "Graph syntactic sugar code bricks for JavaScript",
 	"keywords": [
