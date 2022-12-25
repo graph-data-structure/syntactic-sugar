@@ -7,7 +7,7 @@ Graph syntactic sugar code bricks for JavaScript.
 G.eadd( "a" , "b" ) ;
 ```
 
-[![License](https://img.shields.io/github/license/make-github-pseudonymous-again/js-graph-sugar.svg?style=flat)](https://raw.githubusercontent.com/make-github-pseudonymous-again/js-graph-sugar/master/LICENSE)
+[![License](https://img.shields.io/github/license/make-github-pseudonymous-again/js-graph-sugar.svg?style=flat)](https://raw.githubusercontent.com/make-github-pseudonymous-again/js-graph-sugar/main/LICENSE)
 [![NPM version](https://img.shields.io/npm/v/@aureooms/js-graph-sugar.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-graph-sugar)
 [![Bower version](https://img.shields.io/bower/v/@aureooms/js-graph-sugar.svg?style=flat)](http://bower.io/search/?q=@aureooms/js-graph-sugar)
 [![Build Status](https://img.shields.io/travis/make-github-pseudonymous-again/js-graph-sugar.svg?style=flat)](https://travis-ci.org/make-github-pseudonymous-again/js-graph-sugar)
